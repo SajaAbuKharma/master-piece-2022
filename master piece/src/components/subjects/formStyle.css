@@ -1,0 +1,76 @@
+.subject-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em auto;
+  width: fit-content;
+  position: relative;
+  padding: 2em 5em;
+  background-color: white;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+.subject-form-container h1 {
+  margin-bottom: 1em;
+}
+
+.subject-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.subject-form-container input[type="text"],
+.subject-form-container input[type="email"],
+.subject-form-container input[type="tel"],
+.subject-form-container input[type="date"],
+.subject-form-container input[type="time"] {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+.subject-form-container input[type="submit"] {
+  outline: none !important;
+  background-color: #f0a500;
+  color: white;
+  font-size: 14px;
+  padding: 10px 12px;
+  transition: 0.2s all linear;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #f0a500;
+}
+.subject-form-container input[type="submit"]:hover {
+  background-color: white;
+  color: #f0a500;
+}
+.subject-form-container .texts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subject-form-container .texts > input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.register-label {
+  padding-top: 2em;
+  font-size: 1.2em !important;
+  color: brown;
+}
+
+.date-form {
+  margin-top: 12px;
+}
+
+.date-form .date-box input {
+  margin-right: 10px;
+}
+
+.booking-total {
+  color: green;
+  font-weight: 600;
+  margin-top: 10px;
+}

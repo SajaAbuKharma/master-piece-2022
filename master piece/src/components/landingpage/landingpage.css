@@ -1,0 +1,212 @@
+/* ///////////////////////////////////////////////////about styling  */
+.landingpage-about {
+  display: flex;
+  margin: 2em;
+  background-color: #fafbfc;
+  padding: 2em;
+}
+.landingpage-about-img {
+  flex: 40%;
+}
+.landingpage-about-img img {
+  width: 100%;
+}
+.landingpage-about-text {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3em;
+  text-align: center;
+  margin-top: 5em;
+}
+.landingpage-about-text h3 {
+  font-weight: bold;
+  color: rgb(240, 165, 0);
+}
+.landingpage-about-text p {
+  padding: 1em 3em;
+}
+/* //////////////////////////////////////////card styling  */
+/* .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+.cars-cards .card .btn {
+  background-color: rgb(240, 165, 0) !important;
+  border: none;
+  width: fit-content;
+}
+.cars-cards .card .btn:hover {
+  background-color: white !important;
+  border: 1px solid #192032;
+  color: #192032;
+  cursor: pointer;
+}
+/*/////////////////////////////////////////// testimonials styling */
+.testimonials {
+  padding: 1em 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.testimonials-item img {
+  width: 9.375em;
+  height: 9.375em;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  z-index: 99;
+}
+.testimonials-info {
+  background-color: #fff;
+  padding: 5.5rem 2rem 2rem 2rem;
+  margin-top: -7em;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.testimonials-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+.testimonials-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.testimonials-info p {
+  color: #7c8595;
+  font-style: italic;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.testimonials-info h6 {
+  color: black;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.testimonoals-rating {
+  text-align: center;
+  color: #fdcc28;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.features-area {
+  padding-bottom: 30px !important;
+}
+
+.features-btn {
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.features-btn:hover {
+  background-color: #f0a500;
+  color: white !important;
+}
+
+.testimonoals-rating i {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.landingpage-Testimonials {
+  background-color: #fafbfc;
+  padding-top: 2em;
+}
+.landingpage-Testimonials-cards {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+.landingpage-Testimonials h3 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(240, 165, 0);
+}
+@media screen and (max-width: 768px) {
+  .cars-cards .card {
+    width: 12em !important  ;
+  }
+  .landingpage-about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 540px) {
+  .landingpage-explore-cars {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .card {
+    width: 20em !important;
+  }
+  .landingpage-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .landingpage-Testimonials-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .landingpage-about-text p {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .landingpage-explore-cars {
+    display: flex;
+    flex-direction: column;
+  }
+  .landingpage-explore h3 {
+    width: 100%;
+  }
+  .landingpage-about-text {
+    padding-left: 0em;
+  }
+
+  .card {
+    margin-bottom: 1em;
+    width: 20em !important  ;
+  }
+  .landingpage-Testimonials-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ladingpage-slider-container-btn p {
+    font-size: 2rem;
+  }
+  .ladingpage-slider-container-btn button {
+    padding: 0.7rem 4rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .cars-cards .card {
+    width: 18em !important  ;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 280px) {
+  .cars-cards .card {
+    width: 15em !important  ;
+    margin: auto;
+  }
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  overflow-x: hidden;
+}
+.jump button {
+  border: none;
+  outline-style: none;
+  position: fixed;
+  right: 2em;
+  z-index: 100;
+  cursor: pointer;
+  top: 90%;
+  background-color: #f0a500;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+}
+.jump .fa-arrow-up {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.routes-div {
+  min-height: 90vh !important ;
+}

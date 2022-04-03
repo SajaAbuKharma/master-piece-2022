@@ -1,0 +1,164 @@
+.aboutus-about-section {
+  /* background-image: url("../../../public/e-learning_digital_education-1200x1080.webp"); */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 20px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+}
+.aboutus-about-section img {
+  width: 20em;
+  border-radius: 10px;
+}
+.aboutus-text {
+  width: 50%;
+  margin: auto 0;
+}
+.aboutus-text button {
+  color: rgb(8, 32, 50);
+  text-decoration: none;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  background-color: rgb(240, 165, 0);
+  cursor: pointer;
+}
+.aboutus-text button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/*////////////////////////////////////////// our team styling  */
+.ourteam {
+  padding-top: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 71, 86);
+}
+.ourteam-listing img {
+  width: 20em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.ourteam-listing h3,
+.ourteam-listing h6 {
+  text-align: center;
+  color: white;
+}
+
+.ourteam-listing h6 {
+  color: rgb(216, 216, 216) !important;
+}
+
+.ourteam-body {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-content: space-between;
+  text-align: center;
+}
+.ourteam-body2 {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-content: center;
+  text-align: center;
+  margin: 2em 0 2em 2em;
+}
+.ourteam .ourteam-title {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+  margin: 2em auto;
+  padding-bottom: 0.5em;
+}
+.ourteam-listing {
+  margin-right: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .ourteam-body {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ourteam-listing img {
+    width: 20em;
+  }
+
+  .ourteam-body2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 540px) {
+  .aboutus-about-section img {
+    width: 15em;
+    border-radius: 10px;
+    padding: 1em;
+  }
+  .aboutus-text {
+    width: 60%;
+    padding: 0.5em;
+  }
+  .ourteam-listing img {
+    width: 18em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .aboutus-about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourteam .ourteam-title {
+    width: 60%;
+  }
+  .aboutus-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .aboutus-about-section img {
+    width: 18em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+  .ourteam-listing img {
+    width: 20em;
+  }
+  .ourteam-listing h3,
+  h6 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .ourteam-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .ourteam-body2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ourteam-listing img {
+    width: 15em;
+  }
+}

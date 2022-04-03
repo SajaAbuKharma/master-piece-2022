@@ -1,0 +1,116 @@
+.logIn {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(240, 165, 0, 0),
+      rgb(255, 255, 255, 0.3)
+    ),
+    url("../../../public/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Numans", sans-serif;
+}
+
+.card1 {
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 55px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 10px;
+}
+
+.card-body h3 {
+  color: #f0a500 !important;
+  padding: 0.5em;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-input {
+  padding: 22px 13px !important;
+}
+
+.login-form-input:focus {
+  border-color: #f0a500 !important;
+}
+
+.input-group-text {
+  width: 50px;
+}
+
+.input-group.form-group {
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+input.form-control {
+  width: 350px !important;
+  padding: 10px 10px;
+}
+
+.input-group-prepend span {
+  background-color: #f0a500;
+  color: white;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.form-control:focus {
+  border-color: #f0a500;
+}
+
+.reg {
+  display: flex !important  ;
+  flex-direction: column !important;
+  align-items: center;
+}
+.reg .card-footer a {
+  margin: auto 0.3em;
+}
+.links {
+  color: white;
+}
+.login_btn2 {
+  color: white;
+  background-color: #f0a500 !important;
+  border-radius: 10px;
+  padding: 1em 2em;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+
+  transition: 0.2s all linear;
+}
+
+.login_btn2:hover {
+  transform: scale(1.1);
+}
+
+.links a {
+  margin-left: 5px;
+  color: #f0a500;
+}
+
+@media (max-width: 767.8px) {
+  .card1 {
+    width: 90%;
+  }
+
+  .input-group.form-group {
+    flex-wrap: nowrap;
+  }
+
+  input.form-control {
+    width: 90% !important;
+  }
+}
